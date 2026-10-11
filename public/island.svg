@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#658998"/><stop offset="1" stop-color="#abc0b5"/></linearGradient><linearGradient id="sea" x2="0" y2="1"><stop stop-color="#5e97a5"/><stop offset="1" stop-color="#234b59"/></linearGradient><linearGradient id="land" x2="0" y2="1"><stop stop-color="#7f9463"/><stop offset="1" stop-color="#3f6350"/></linearGradient></defs>
+<path fill="url(#sky)" d="M0 0h1600v1100H0z"/><path fill="#d0dbd0" opacity=".2" d="M-50 190q220-80 400 0t420 0 440 0 440-20v70H0z"/>
+<path fill="url(#sea)" d="M0 360h1600v740H0z"/>
+<g stroke="#b4cfc9" fill="none" opacity=".2" stroke-width="2"><path d="M0 490h250m70 0h340m120 0h260m90 0h420M0 570h110m70 0h340m130 0h500m110 0h340M0 660h320m130 0h270m180 0h240m80 0h380M0 760h190m70 0h210m90 0h400m150 0h450M0 890h430m180 0h490m100 0h400M0 980h1600"/></g>
+<path fill="#485c54" d="M-60 810 190 690 270 650 440 670 590 600 780 640 910 560 1060 590 1190 730 1440 830 1640 1040v180H0z"/>
+<path fill="#84917a" d="m-60 765 250-130 180 16 100-90 180 36 130-45 160-55 120 18 110 116 120 72 250 154 130 118-170-68-180-45-110-78-120-20-65-140-150-7-150 65-130-21-80 74-210-21-110 111Z"/>
+<path fill="url(#land)" d="m-60 765 250-130 180 16 100-90 180 36 130-45 160-55 120 18 110 116 120 72 250 154 130 118v225H0Z"/>
+<path d="M710 1100q-100-220 100-350t155-215" stroke="#b4ae7a" stroke-width="27" fill="none" opacity=".5"/>
+<g fill="#344e40"><path d="m155 580 45 150h-90Zm90 42 35 118h-76Zm930-80 48 150h-101Zm91 110 30 100h-70Z"/><path d="m460 610 40 130h-88Zm-75 71 38 124h-76Z"/></g>
+<g stroke="#445b58" stroke-width="3"><path fill="#c1b894" d="M815 508h205v111H815z"/><path fill="#576568" d="m790 510 123-67 132 67Z"/><path fill="#789397" d="M904 380h40v133h-40z"/><path fill="#425a63" d="m887 382 38-46 37 46Z"/><path fill="#c3b78a" d="M914 572h23v47h-23z"/></g>
+<g fill="#546966"><path d="M840 530h15v23h-15zm35 0h15v23h-15zm79 0h15v23h-15zm35 0h15v23h-15zM840 573h15v23h-15zm35 0h15v23h-15zm79 0h15v23h-15zm35 0h15v23h-15z"/></g>
+<g fill="#c7d3c5" opacity=".4"><path d="m320 245 15-7 15 7-15-3zM1180 290l15-7 15 7-15-3zM1220 255l10-5 10 5-10-2z"/></g>
+</svg>

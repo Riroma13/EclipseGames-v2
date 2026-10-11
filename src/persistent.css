@@ -1,0 +1,119 @@
+.persistent-atlas .rail {
+  top: 20px;
+}
+.persistent-atlas .workspace {
+  padding-top: 28px;
+}
+.persistent-atlas .operation-controls {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.persistent-atlas .field {
+  margin-bottom: 16px;
+}
+.persistent-atlas .field input {
+  min-height: 44px;
+  border: 1px solid #ccd8df;
+  padding: 12px;
+  border-radius: 10px;
+}
+.persistent-atlas .rail-bottom small {
+  overflow-wrap: anywhere;
+}
+.login-form form .field {
+  margin: 18px 0;
+}
+.login-form form input {
+  padding: 12px;
+  border: 1px solid #ccd8df;
+  border-radius: 10px;
+  min-height: 44px;
+}
+
+.tablet-logout {
+  display: none;
+}
+@media (max-width: 800px) {
+  .tablet-logout {
+    display: inline-block;
+  }
+  .persistent-atlas .topbar {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+.persistent-atlas textarea {
+  border: 1px solid #ccd8df;
+  border-radius: 10px;
+  padding: 12px;
+  max-width: 100%;
+}
+
+.persistent-tabs {
+  display: flex;
+  gap: 12px;
+  margin: 0 0 20px;
+  flex-wrap: wrap;
+}
+.persistent-xp-values {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+.persistent-xp-values button {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid #ccd8df;
+  border-radius: 10px;
+  padding: 10px 6px;
+  background: #f0f7fa;
+  min-height: 72px;
+  color: #234d61;
+}
+.persistent-xp-values button span {
+  font-size: 11px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.persistent-xp-values button strong {
+  font-size: 19px;
+}
+.persistent-xp-values button:hover {
+  background: #dcecf4;
+}
+.xp-history {
+  margin-top: 30px;
+}
+.xp-history-entry {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccd8df;
+  padding: 16px 0;
+}
+.xp-history-entry small {
+  overflow-wrap: anywhere;
+}
+.persistent-atlas .quick-panel {
+  top: 20px;
+}
+.persistent-atlas .roster {
+  min-width: 0;
+}
+.persistent-atlas .student-identity {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 620px) {
+  .xp-history-entry {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+.persistent-desk .category { display: block; }
+.persistent-xp-values button span { font-size: 12px; }

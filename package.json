@@ -1,0 +1,24 @@
+{
+  "name": "eclipsegames-v2-prototype",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test",
+    "export:demo": "npm run build && node scripts/export-demo.mjs",
+    "api": "node server/api.mjs",
+    "teacher:create": "node server/bootstrap.mjs",
+    "test:api": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "vite": "7.1.3",
+    "@playwright/test": "1.54.2"
+  }
+}
